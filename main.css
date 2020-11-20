@@ -1,0 +1,138 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+html, body {
+  font-family: "Biryani";
+  margin-left: 60px;
+}
+
+.main-text {
+  padding-right: 20%;
+  padding-left: 20%;
+  margin-right: 20%;
+  width: 45%;
+  max-width: calc(100vw - 10px);
+  float: right;
+  box-sizing: border-box;
+}
+
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  height: 100vh;
+}
+
+.name-headline {
+  line-height: 35px;
+  width: 350px;
+  text-align: center;
+  padding: 10%;
+  background-color: rgba(red(@color), green(@color), blue(@color), @alpha);
+  border-radius: 50px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  font-size: 18px;
+}
+
+.content {
+  margin-top: 40%;
+  margin-left: -40px;
+  line-height: 30px;
+  width: 450px;
+  text-align: center;
+  padding: 30%;
+  background-color: rgba(red(@color), green(@color), blue(@color), @alpha);
+  border-radius: 50px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  font-size: 18px;
+}
+
+.content {
+  position: relative;
+  bottom: -50px;
+  left: -320px;
+}
+
+img {
+  border-radius: 30%;
+  float: left;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+.content:hover { 
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+.name-headline:hover { 
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+
+.picture-info {
+  background-color: rgba(red(@color), green(@color), blue(@color), @alpha);
+  border-radius: 50px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 20%;
+  max-width: calc(100vw - 10px);
+  margin-top: 10%;
+  box-sizing: border-box;
+}
+
+
+.profile-pic {
+  padding: 4.1%;
+  margin-left: 10.5%;
+
+}
+
+body {
+  background: url('assets/cover.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+li {
+  display: inline;
+}
+
+.links {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 75%;
+}
+
+a {
+  color: #191970;
+  font-size: 200%;
+}
+hr {
+  width: 100%;
+  border: 1px solid #008B8B;
+}
+
+a:hover {
+  color: whitesmoke;
+}
